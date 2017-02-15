@@ -1,9 +1,10 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-import unittest
 import csv
-from core.tasks import add, crawler, mongo_pipeline
+import unittest
+
+from jd_crawler.jd_tasks import crawler, mongo_pipeline
 
 
 class TestCelery(unittest.TestCase):

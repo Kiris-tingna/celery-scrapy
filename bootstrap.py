@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-from core.tasks import crawler
+from jd_crawler.jd_tasks import bootstrap
 
-crawler('http://jandan.net/ooxx')
+bootstrap()

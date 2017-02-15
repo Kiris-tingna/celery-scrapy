@@ -12,3 +12,5 @@ DEFAULT_REQUEST_HEADERS = {
     'Accept-Encoding': 'gzip, deflate, sdch',
     'Connection': 'keep-alive'
 }
+
+LOG_FILE = "./log/spider.log"
